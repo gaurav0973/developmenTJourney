@@ -53,3 +53,35 @@
    ```
 
 
+
+
+## Day 3 : HTML-2
+
+### Key Learnings
+- Nested List
+- Tables
+   - colspan
+   - rowspan
+```html
+   <!-- table started -->
+   <table>
+      <!-- table header -->
+      <thead>
+         <!-- table row -->
+         <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+         </tr>
+      </thead>
+      <!-- table body -->
+      <tbody>
+         <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+         </tr>
+      </tbody>
+      <!-- table footer -->
+      <tfoot>
+      </tfoot>
+   </table>
+```
