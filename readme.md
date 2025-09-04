@@ -86,3 +86,13 @@ This journey is about **discipline + revision + consistency** - just like defenc
    </tfoot>
 </table>
 ```
+
+
+### ✅ Day 4 : HTML - File Path | BoilerPlate Code | DIV + Class + ID + Header + Footer + Main  
+
+**Key Learnings**  
+- File paths: absolute vs relative  
+- Boilerplate code for HTML5
+- semantic tags: `<header>`, `<footer>`, `<main>`, `<section>`, `<article>`
+- `<div>` tag for making containers
+- `class` vs `id` attributes
