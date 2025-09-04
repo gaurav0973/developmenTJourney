@@ -26,7 +26,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ---
 
 ### ✅ Day 2 : HTML - Basics 🔤  
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1962872634825457893)  
+
 
 **Key Learnings**  
 - What is HTML
@@ -63,7 +63,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ---
 
 ### ✅ Day 3 : HTML - Tables & Lists 📊  
-
+🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963245214463590851)  
 **Key Learnings**  
 - Nested lists  
 - Tables with **colspan** & **rowspan**  
@@ -89,7 +89,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 ### ✅ Day 4 : HTML - File Path | BoilerPlate Code | DIV + Class + ID + Header + Footer + Main  
-
+🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963595689025224831)  
 **Key Learnings**  
 - File paths: absolute vs relative  
 - Boilerplate code for HTML5
