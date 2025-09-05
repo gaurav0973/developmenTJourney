@@ -98,3 +98,12 @@ This journey is about **discipline + revision + consistency** - just like defenc
 - semantic tags: `<header>`, `<footer>`, `<main>`, `<section>`, `<article>`
 - `<div>` tag for making containers
 - `class` vs `id` attributes
+
+
+### ✅ Day 5 : HTML - Forms & Input Elements  
+🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963595689025224831)  
+**Key Learnings**  
+- Form elements: `<form>`, `<input>`, `<label>`
+- Input types: text, password, email, number, date, etc.
+- Labels and accessibility
+- Form validation (HTML5)
