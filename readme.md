@@ -13,6 +13,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 ### ✅ Day 1 : What is Internet 🌐  
 🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1962591963267641634)  
+📚 [Blog Post](https://medium.com/@gauravkmaurya09/how-the-internet-works-a-beginner-friendly-explanation-be334e320aac)
 
 **Key Learnings**  
 - How the internet works behind the scenes  
