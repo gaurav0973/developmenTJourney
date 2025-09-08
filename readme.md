@@ -107,3 +107,11 @@ This journey is about **discipline + revision + consistency** - just like defenc
 - Input types: text, password, email, number, date, etc.
 - Labels and accessibility
 - Form validation (HTML5)
+
+
+### ✅ Day 6 : HTML - Video, Audio, Iframe
+🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1964597713035768320)
+**Key Learnings**
+- Embedding videos with `<video>` tag
+- Embedding audio with `<audio>` tag
+- Using `<iframe>` to embed external content
