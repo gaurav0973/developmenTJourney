@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epunda Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #e1dbdb;
+}
+
+
+.card{
+  border: #3f3e3e solid 10px;
+}
+
+
+h1{
+  color: #3f3e3e;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2{
+  color: #3f3e3e;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.list{
+  list-style: none; 
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #3f3e3e;
+  text-align: center;
+}
+
+h3{
+  color: #3f3e3e;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h3>a{
+  text-decoration: none;
+  color: #3f3e3e;
+}
+
+h3>a:hover{
+  color: #ff0000;
+  text-decoration: underline;
+}

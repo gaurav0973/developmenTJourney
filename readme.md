@@ -2,7 +2,7 @@
 
 📚 **Course by:** [Rohit Negi](https://www.youtube.com/watch?v=1pcikNlDB-4&list=PLQEaRBV9gAFsistSzOgnD4cWgFGRVda4X)  
 🎯 **Purpose:** Brushing up my development skills through Rohit Negi’s **Defence Course**  
-📺 **Channel:** ![channel banner](image.png)  
+📺 **Channel:** ![channel banner](images/image.png)  
 🏹 **Why I’m Doing This?**  
 I’ve already been into **development & full-stack projects**, but I wanted to **go back to the roots** 🪴 and sharpen my fundamentals.  
 This journey is about **discipline + revision + consistency** - just like defence training 💪.
