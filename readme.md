@@ -9,6 +9,40 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 ---
 
+## 🗓️ Blogs
+
+### Basics 🍻
+#### 1. How the Internet Works 
+🔗 [Read More](https://medium.com/@gauravkmaurya09/how-the-internet-works-a-beginner-friendly-explanation-be334e320aac)
+
+#### 2. How DNS Works
+🔗 [Read More](https://medium.com/@gauravkmaurya09/how-dns-works-the-journey-from-a-name-to-an-ip-address-59a59c3a4aab)
+
+#### 3. Server-Client Architecture Explained
+🔗 [Read More](https://medium.com/@gauravkmaurya09/server-client-architecture-explained-from-browser-to-web-server-393093a7998a)
+
+
+### HTML🔤
+#### 1. HTML Forms 📝
+🔗 [Read More](https://medium.com/@gauravkmaurya09/html-forms-made-simple-099444b167be)
+
+
+### CSS🎨
+
+#### 1. Understanding the CSS Box Model
+🔗 [Read More](https://medium.com/@gauravkmaurya09/understanding-the-css-box-model-4894ba46b3ee)
+
+#### 2. Inline vs Block Elements in CSS
+🔗 [Read More](https://medium.com/@gauravkmaurya09/inline-vs-block-elements-in-css-2f467889f000)
+
+#### 3. CSS Positioning Explained
+🔗 [Read More](https://medium.com/@gauravkmaurya09/css-positioning-explained-7279b1429f05)
+
+
+#### 4. Mastering Flexbox in CSS 🍻
+🔗 [Read More](https://medium.com/@gauravkmaurya09/mastering-flexbox-in-css-dba7f48b4373)
+
+---
 ## 🗓️ Daily Progress  
 
 ### ✅ Day 1 : What is Internet 🌐  
