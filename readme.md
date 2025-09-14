@@ -12,41 +12,33 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ## 🗓️ Blogs
 
 ### Basics 🍻
-#### 1. How the Internet Works 
-🔗 [Read More](https://medium.com/@gauravkmaurya09/how-the-internet-works-a-beginner-friendly-explanation-be334e320aac)
+##### 1. How the Internet Works  👨🏻‍💻[Read More](https://medium.com/@gauravkmaurya09/how-the-internet-works-a-beginner-friendly-explanation-be334e320aac)
 
-#### 2. How DNS Works
-🔗 [Read More](https://medium.com/@gauravkmaurya09/how-dns-works-the-journey-from-a-name-to-an-ip-address-59a59c3a4aab)
+##### 2. How DNS Works 💻[Read More](https://medium.com/@gauravkmaurya09/how-dns-works-the-journey-from-a-name-to-an-ip-address-59a59c3a4aab)
 
-#### 3. Server-Client Architecture Explained
-🔗 [Read More](https://medium.com/@gauravkmaurya09/server-client-architecture-explained-from-browser-to-web-server-393093a7998a)
+##### 3. Server-Client Architecture Explained 💻 [Read More](https://medium.com/@gauravkmaurya09/server-client-architecture-explained-from-browser-to-web-server-393093a7998a)
 
 
 ### HTML🔤
-#### 1. HTML Forms 📝
-🔗 [Read More](https://medium.com/@gauravkmaurya09/html-forms-made-simple-099444b167be)
+##### 1. HTML Forms 📝 [Read More](https://medium.com/@gauravkmaurya09/html-forms-made-simple-099444b167be)
 
 
 ### CSS🎨
 
-#### 1. Understanding the CSS Box Model
-🔗 [Read More](https://medium.com/@gauravkmaurya09/understanding-the-css-box-model-4894ba46b3ee)
+##### 1. Understanding the CSS Box Model 💭[Read More](https://medium.com/@gauravkmaurya09/understanding-the-css-box-model-4894ba46b3ee)
 
-#### 2. Inline vs Block Elements in CSS
-🔗 [Read More](https://medium.com/@gauravkmaurya09/inline-vs-block-elements-in-css-2f467889f000)
+##### 2. Inline vs Block Elements in CSS 🍃[Read More](https://medium.com/@gauravkmaurya09/inline-vs-block-elements-in-css-2f467889f000)
 
-#### 3. CSS Positioning Explained
-🔗 [Read More](https://medium.com/@gauravkmaurya09/css-positioning-explained-7279b1429f05)
+##### 3. CSS Positioning Explained 📤[Read More](https://medium.com/@gauravkmaurya09/css-positioning-explained-7279b1429f05)
 
 
-#### 4. Mastering Flexbox in CSS 🍻
-🔗 [Read More](https://medium.com/@gauravkmaurya09/mastering-flexbox-in-css-dba7f48b4373)
+##### 4. Mastering Flexbox in CSS 🍻 [Read More](https://medium.com/@gauravkmaurya09/mastering-flexbox-in-css-dba7f48b4373)
 
----
+
 ## 🗓️ Daily Progress  
 
 ### ✅ Day 1 : What is Internet 🌐  
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1962591963267641634)  
+ 
 📚 [How Internet works](https://medium.com/@gauravkmaurya09/how-the-internet-works-a-beginner-friendly-explanation-be334e320aac)
 🏹 [How DNS Works](https://medium.com/@gauravkmaurya09/how-dns-works-the-journey-from-a-name-to-an-ip-address-59a59c3a4aab)
 
@@ -99,7 +91,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ---
 
 ### ✅ Day 3 : HTML - Tables & Lists 📊  
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963245214463590851)  
+ 
 **Key Learnings**  
 - Nested lists  
 - Tables with **colspan** & **rowspan**  
@@ -125,7 +117,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 ### ✅ Day 4 : HTML - File Path | BoilerPlate Code | DIV + Class + ID + Header + Footer + Main  
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963595689025224831)  
+
 **Key Learnings**  
 - File paths: absolute vs relative  
 - Boilerplate code for HTML5
@@ -135,7 +127,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 ### ✅ Day 5 : HTML - Forms & Input Elements  
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1963973138128998714)  
+
 **Key Learnings**  
 - Form elements: `<form>`, `<input>`, `<label>`
 - Input types: text, password, email, number, date, etc.
@@ -144,7 +136,6 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 ### ✅ Day 6 : HTML - Video, Audio, Iframe
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1965135204399608257)
 **Key Learnings**
 - Embedding videos with `<video>` tag
 - Embedding audio with `<audio>` tag
@@ -152,8 +143,6 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 ### ✅ Day 7 : CSS - Selectors, Colors, Pixels & Fonts🎨
-
-🔗 [Twitter Post 👀](https://x.com/gauravkmaurya09/status/1964983785766222336)
 🏹 [Live Link](https://simplecard009.netlify.app/)
 
 ![UI](./images/2.1.png)
@@ -201,3 +190,5 @@ This journey is about **discipline + revision + consistency** - just like defenc
       - iski original jagah koi aur element le sakta hai
    - Sticky : scroll karne par fixed ho jata hai
       - top, bottom, left, right ke sath use karte hai
+
+
