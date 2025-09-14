@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark">
+    <title>Lecture-1</title>
+  </head>
+  <body>
+    <h1>How the Internet Works</h1>
+    <p>
+      We all use the internet daily — opening Google, watching YouTube, or
+      checking Instagram. But have you ever wondered: what really happens when
+      you type a website name and press Enter?<br />
+      Let's understand this step by step in the simplest way possible.
+    </p>
+    <hr />
+
+    <h2>1. IP Address: The Internet's House Number</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*AMZpa37H3kkWudCuDzCiYQ.png" alt="ip-addressing">
+    <p>
+      When we want to send data from one computer to another, we first need to
+      know where to send it.<br />
+      That's what an IP address does.<br />
+      It's like a house number on the internet.<br />
+      Every device (computer, phone, or server) has a unique IP address.<br />
+      <br />
+      So your data now knows the "house" it needs to reach.
+    </p>
+
+    <h2>2. MAC Address: The Exact Flat</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*kh7rS_me4Y33uNOqBQsbmA.png" alt="mac-address" width="700px">
+    <p>
+      Okay, we found the house. But inside a big building, there may be many
+      flats. Which flat exactly?<br />
+      That's where the MAC address comes in.<br />
+      It's like the flat number inside the building.<br />
+      It uniquely identifies a single device (your laptop, your phone, or even
+      your Wi-Fi router).<br />
+      <br />
+      Now the data knows exactly which device should receive it.
+    </p>
+
+    <h2>3. Port Number: The Right Room</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*g0TsAMUZcSZg2oZDZ5y26w.png" alt="port number">
+    <p>
+      Great! The data reached the device. But wait — your device runs many apps
+      at once.<br />
+      So how does the data know whether to go to your browser, email app, or
+      WhatsApp?<br />
+      That's where the port number helps.<br />
+      Think of it like a room inside the flat.<br />
+      <br />
+      <strong>Example:</strong><br />
+      Port 80 → websites (HTTP)<br />
+      Port 443 → secure websites (HTTPS)<br />
+      <br />
+      Now, the data is delivered to the right app.
+    </p>
+
+    <h2>4. DNS: Turning Names into Numbers</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*V4d253uLgOf8St2leJg1vw.png" alt="DNS">
+    <p>
+      We don't type IP addresses like 142.250.190.78. Instead, we type names
+      like www.google.com.<br />
+      But computers only understand numbers. So we need DNS (Domain Name
+      System).<br />
+      DNS works like a phonebook.<br />
+      You give it the name (google.com), it returns the number (IP address).
+    </p>
+
+    <h2>5. ISP and Routers: Finding the Fastest Path</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*F7y3frfDNd-TO_cTVsWHBw.png" alt="isp">
+    <p>
+      Alright, we have the IP address. But how do we travel there?<br />
+      First, your request goes to your ISP (Internet Service Provider).<br />
+      Then it passes through routers, which are like traffic signals that decide
+      the fastest route to the destination server.
+    </p>
+
+    <h2>6. The Server: The Warehouse of Data</h2>
+    <img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*wbxRO_YoRyoVHm6W583_HA.png" alt="server">
+    <p>
+      Now your request reaches the server.<br />
+      Think of a server as a warehouse storing website data.<br />
+      It finds the right files and sends them back to you.<br />
+      <br />
+      Usually, the server sends three main files:<br />
+      <strong>HTML</strong> → the structure of the webpage<br />
+      <strong>CSS</strong> → the design and look<br />
+      <strong>JavaScript</strong> → the interactivity
+    </p>
+
+    <h2>7. Browser Rendering: The Final Picture</h2>
+    <p>
+      Finally, your browser takes these files and assembles them — like putting
+      Lego blocks together.<br />
+      And boom! The webpage appears on your screen.
+    </p>
+
+    <hr />
+    <h2>Quick Recap: The Internet Journey</h2>
+    <ul>
+      <li>You type www.google.com.</li>
+      <li>DNS converts the name into an IP address.</li>
+      <li>ISP and routers find the best path.</li>
+      <li>Data travels with IP (house), MAC (flat), and Port (room).</li>
+      <li>The server responds with HTML, CSS, and JavaScript.</li>
+      <li>Your browser assembles and shows the page.</li>
+    </ul>
+    <hr />
+  </body>
+</html>

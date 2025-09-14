@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark">
+    <title>How DNS Works</title>
+  </head>
+  <body>
+    <h1>How DNS Works: The Journey From a Name to an IP Address</h1>
+    <p>
+      When you type www.google.com in your browser, your computer doesn't
+      actually understand "google.com." Computers talk in numbers called IP
+      addresses - something like 222.4.5.6.<br />
+      So how does the internet translate names into numbers? That's where DNS
+      (Domain Name System) comes in. It works like a phonebook of the internet.
+      Let's walk through the process with the diagram above.
+    </p>
+    <hr />
+
+    <h2>Step 1: Check Local Cache</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*C__XkSDPStlS_R8GlGU8mA.png"
+      alt="local"
+    />
+    <p>
+      When you enter www.google.com, your computer first looks in its cached DNS
+      records.<br />
+      If it has seen this website before, it may already know the IP (like
+      222.4.5.6).<br />
+      If it's not stored, your computer asks the ISP's DNS resolver.
+    </p>
+
+    <h2>Step 2: ISP's DNS Resolver</h2>
+    <p>
+      The resolver at your Internet Service Provider (ISP) acts like a
+      helper.<br />
+      If the resolver has the IP cached, it returns it immediately.<br />
+      If not, it must go on a search mission.
+    </p>
+
+    <h2>Step 3: Root Name Servers</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*OiueHLDMCScuuEp4IfQkHw.png"
+      alt="rootNameServer"
+    />
+    <p>
+      The resolver first asks a Root Name Server.<br />
+      There are 13 main root servers worldwide with fixed IP addresses.<br />
+      The root server doesn't know the final answer, but it points the resolver
+      in the right direction.<br /><br />
+      For example, for www.google.com, the root says:<br />
+       "Go check the <strong>.com</strong> TLD server."
+    </p>
+
+    <h2>Step 4: TLD Servers (.com, .in, .ai)</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*uEB_J6PgCdUDCbSKwCarIQ.png"
+      alt="TLD"
+    />
+    <p>
+      The resolver now queries the TLD (Top-Level Domain) server.<br />
+      <strong>.com</strong> for commercial sites<br />
+      <strong>.in</strong> for India<br />
+      <strong>.ai</strong> for Anguilla (and now AI-related projects)<br /><br />
+      The TLD server still doesn't give the IP. Instead, it points to the
+      authoritative name server for that domain.
+    </p>
+
+    <h2>Step 5: Authoritative Name Server</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*jDeyTw_WyX3Y21ZfCHQJDQ.png"
+      alt="nameServer"
+    />
+    <p>
+      Finally, the resolver reaches the authoritative name server for
+      google.com.<br />
+      This server has the actual DNS record.<br />
+      It returns the correct IP address, like 222.4.5.6.
+    </p>
+
+    <h2>Step 6: Back to the Browser</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*648Ph3fx_2j4H7h11avs9A.png"
+      alt="browser"
+    />
+    <p>
+      Now the ISP's resolver passes the IP back to your computer.<br />
+      Your browser uses that IP to connect directly to the web server.<br />
+      The server responds with the website data (HTML, CSS, JavaScript), and the
+      page loads in your browser.
+    </p>
+
+    <hr />
+    <h2>The Flow in Short</h2>
+    <img
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Z_QMVbGg6Wy-QtcNTXw5eA.png"
+      alt="final-step"
+    />
+    <p>
+      Looking at the diagram again, here's the journey:<br />
+      Computer → ISP Resolver → Root Server → TLD Server → Authoritative Server
+      → ISP Resolver → Computer<br />
+      And all of this happens in just a few milliseconds!
+    </p>
+
+    <hr />
+    <h2>Recap</h2>
+    <ul>
+      <li>DNS is the phonebook of the internet.</li>
+      <li>ISP resolver: Your first helper.</li>
+      <li>Root server: Points to the right TLD.</li>
+      <li>TLD server: Directs you to the authoritative server.</li>
+      <li>Authoritative server: Gives the final IP.</li>
+    </ul>
+  </body>
+</html>
