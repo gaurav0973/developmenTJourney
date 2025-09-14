@@ -141,3 +141,29 @@ This journey is about **discipline + revision + consistency** - just like defenc
    - Full Form: Picture Element
    - 1 Pixel = 1 block(in a matrix) on the screen
    - Resolution = Width x Height (in pixels)
+
+
+
+### ✅ Day 8 : CSS - Cascade & Positioning🎨
+
+- CSS : Cascading Style Sheets
+- Cascading Priority
+   - !important (highest priority)
+   - Inline CSS 
+   - Id(Property)
+   - Class(Property)
+   - Tags(h1/h2/p)
+- NOTE : When Tie => orderign will be important
+
+- Positioning
+   - Static (default)
+   - Relative : khud ki original position se relative
+      - iski jagah koi aur element nahi le sakta
+   - Absolute : jiska ancestor is position:relative ho
+      - iski jagah koi aur element le sakta hai
+      - ye element hava me float karta hai
+   - Fixed :  window se relative
+      - position of element will be fixed even on scrolling
+      - iski original jagah koi aur element le sakta hai
+   - Sticky : scroll karne par fixed ho jata hai
+      - top, bottom, left, right ke sath use karte hai
