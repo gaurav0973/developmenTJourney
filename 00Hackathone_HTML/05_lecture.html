@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <title>Lecture-5</title>
+  </head>
+  <body>
+    <h1>HTML Forms 📝: Made Simple</h1>
+    <p>
+      Forms are one of the most important parts of web development. Whenever you
+      log in, sign up, or submit details on a website, you are using an HTML
+      form.<br />
+      Let's break it down in simple terms.
+    </p>
+    <hr />
+
+    <h2>1️⃣ Label &amp; Input</h2>
+    <ul>
+      <li><strong>label</strong> &rarr; Describes what the field is about.</li>
+      <li>
+        <strong>input</strong> &rarr; The actual field where the user types
+        something.
+      </li>
+    </ul>
+    <pre><code>&lt;label&gt;Name :&lt;/label&gt;
+    &lt;input type="text"&gt;</code></pre>
+    <label>Name :</label>
+    <input type="text" />
+    <hr />
+
+    <h2>2️⃣ Connecting Label and Input (for - id)</h2>
+    <ul>
+      <li>
+        Use <code>for</code> in <code>&lt;label&gt;</code> and
+        <code>id</code> in <code>&lt;input&gt;</code> to connect them.
+      </li>
+      <li>Clicking the label focuses the input box.</li>
+      <li>Makes forms more accessible (helpful for screen readers).</li>
+    </ul>
+    <pre><code>&lt;label for="email"&gt;Email :&lt;/label&gt;
+    &lt;input type="email" id="email"&gt;</code></pre>
+    <label for="email">Email :</label>
+    <input type="email" id="email" />
+    <hr />
+
+    <h2>3️⃣ Name–Value Pair (What Goes to the Backend)</h2>
+    <ul>
+      <li>
+        When you fill a form and hit submit, your browser sends data to the
+        backend as <strong>name=value</strong> pairs.
+      </li>
+      <li>Radio buttons example:</li>
+    </ul>
+    <pre><code>&lt;label for="male"&gt;Male&lt;/label&gt;
+    &lt;input type="radio" id="male" name="gender" value="male"&gt;
+    &lt;label for="female"&gt;Female&lt;/label&gt;
+    &lt;input type="radio" id="female" name="gender" value="female"&gt;
+    &lt;label for="other"&gt;Other&lt;/label&gt;
+    &lt;input type="radio" id="other" name="gender" value="other"&gt;</code></pre>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male" />
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female" />
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other" />
+    <hr />
+
+    <h2>Example: Full Form</h2>
+    <pre><code>&lt;form action="/submit" method="POST"&gt;
+      &lt;label for="name"&gt;Name :&lt;/label&gt;
+      &lt;input type="text" id="name" name="name"&gt;&lt;br&gt;&lt;br&gt;
+      &lt;label for="email"&gt;Email :&lt;/label&gt;
+      &lt;input type="email" id="email" name="email"&gt;&lt;br&gt;&lt;br&gt;
+      &lt;label for="password"&gt;Password :&lt;/label&gt;
+      &lt;input type="password" id="password" name="password"&gt;&lt;br&gt;&lt;br&gt;
+      &lt;label for="male"&gt;Male&lt;/label&gt;
+      &lt;input type="radio" id="male" name="gender" value="male"&gt;
+      &lt;label for="female"&gt;Female&lt;/label&gt;
+      &lt;input type="radio" id="female" name="gender" value="female"&gt;
+      &lt;label for="other"&gt;Other&lt;/label&gt;
+      &lt;input type="radio" id="other" name="gender" value="other"&gt;&lt;br&gt;&lt;br&gt;
+      &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;</code></pre>
+    <form action="/submit" method="POST">
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name" /><br /><br />
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" /><br /><br />
+      <label for="password">Password :</label>
+      <input type="password" id="password" name="password" /><br /><br />
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="other">Other</label>
+      <input type="radio" id="other" name="gender" value="other" /><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+    <hr />
+
+    <h2>✅ In short:</h2>
+    <ul>
+      <li><strong>label + input</strong> → Basic building block.</li>
+      <li>
+        <strong>for + id</strong> → Connects label to input for better UX.
+      </li>
+      <li><strong>name=value</strong> → Data sent to backend.</li>
+    </ul>
+
+    <p>
+      You can find me on
+      <a href="https://x.com/gauravkmaurya09" target="_blank">X</a>
+    </p>
+  </body>
+</html>

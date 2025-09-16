@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark">
+    <title>Lecture-6</title>
+  </head>
+  <body>
+    <h1>HTML: Video, Audio, Iframe & Embedding YouTube</h1>
+
+    <h2>Video Tag</h2>
+    <ul>
+      <li>Use <code>&lt;video&gt;</code> to embed videos.</li>
+      <li>
+        Common attributes: <code>controls</code>, <code>width</code>,
+        <code>height</code>, <code>autoplay</code>, <code>loop</code>
+      </li>
+    </ul>
+    <pre><code>&lt;video src="sample.mp4" controls width="320" height="240"&gt;Your browser does not support the video tag.&lt;/video&gt;</code></pre>
+    <video src="sample.mp4" controls width="320" height="240">
+      Your browser does not support the video tag.
+    </video>
+
+    <hr />
+
+    <h2>Audio Tag</h2>
+    <ul>
+      <li>Use <code>&lt;audio&gt;</code> to embed audio files.</li>
+      <li>
+        Common attributes: <code>controls</code>, <code>autoplay</code>,
+        <code>loop</code>
+      </li>
+    </ul>
+    <pre><code>&lt;audio src="sample.mp3" controls&gt;Your browser does not support the audio tag.&lt;/audio&gt;</code></pre>
+    <audio src="sample.mp3" controls>
+      Your browser does not support the audio tag.
+    </audio>
+
+    <hr />
+
+    <h2>Iframe Tag</h2>
+    <ul>
+      <li>
+        Use <code>&lt;iframe&gt;</code> to embed another webpage inside your
+        page.
+      </li>
+      <li>
+        Common attributes: <code>src</code>, <code>width</code>,
+        <code>height</code>, <code>title</code>
+      </li>
+    </ul>
+    <pre><code>&lt;iframe src="https://www.example.com" width="400" height="200" title="Example"&gt;&lt;/iframe&gt;</code></pre>
+    <iframe
+      src="https://www.example.com"
+      width="400"
+      height="200"
+      title="Example"
+    ></iframe>
+
+    <hr />
+
+    <h2>Embedding YouTube Videos</h2>
+    <ul>
+      <li>Use <code>&lt;iframe&gt;</code> with the YouTube embed URL.</li>
+      <li>
+        Find the embed code by clicking "Share" on a YouTube video, then
+        "Embed".
+      </li>
+    </ul>
+    <pre><code>&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="YouTube video"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>

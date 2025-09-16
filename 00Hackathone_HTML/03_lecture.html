@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark">
+    <title>Lecture-3</title>
+  </head>
+  <body>
+    <h1>HTML Lists and Tables: Key Concepts</h1>
+
+    <h2>Lists in HTML</h2>
+    <p>Lists are used to group related items. There are three main types:</p>
+    <ul>
+      <li><strong>Unordered List (&lt;ul&gt;)</strong>: Bulleted list</li>
+      <li><strong>Ordered List (&lt;ol&gt;)</strong>: Numbered list</li>
+      <li>
+        <strong>Description List (&lt;dl&gt;)</strong>: Term-description pairs
+      </li>
+    </ul>
+
+    <h3>Example: Unordered List</h3>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Apple&lt;/li&gt;
+  &lt;li&gt;Banana&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    <ul>
+      <li>Apple</li>
+      <li>Banana</li>
+    </ul>
+
+    <h3>Example: Ordered List</h3>
+    <pre><code>&lt;ol&gt;
+  &lt;li&gt;First&lt;/li&gt;
+  &lt;li&gt;Second&lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+    <ol>
+      <li>First</li>
+      <li>Second</li>
+    </ol>
+
+    <h3>Example: Description List</h3>
+    <pre><code>&lt;dl&gt;
+  &lt;dt&gt;HTML&lt;/dt&gt;
+  &lt;dd&gt;Markup language for web pages&lt;/dd&gt;
+&lt;/dl&gt;</code></pre>
+    <dl>
+      <dt>HTML</dt>
+      <dd>Markup language for web pages</dd>
+    </dl>
+
+    <hr />
+
+    <h2>Nested Lists</h2>
+    <p>You can nest lists inside other lists to show hierarchy.</p>
+    <pre><code>&lt;ul&gt;
+  &lt;li&gt;Fruits
+    &lt;ul&gt;
+      &lt;li&gt;Apple&lt;/li&gt;
+      &lt;li&gt;Banana&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Vegetables
+    &lt;ul&gt;
+      &lt;li&gt;Carrot&lt;/li&gt;
+      &lt;li&gt;Broccoli&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+    <ul>
+      <li>
+        Fruits
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+        </ul>
+      </li>
+      <li>
+        Vegetables
+        <ul>
+          <li>Carrot</li>
+          <li>Broccoli</li>
+        </ul>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>Tables in HTML</h2>
+    <p>Tables organize data in rows and columns. Main tags:</p>
+    <ul>
+      <li><code>&lt;table&gt;</code>: Table container</li>
+      <li><code>&lt;tr&gt;</code>: Table row</li>
+      <li><code>&lt;th&gt;</code>: Table header cell</li>
+      <li><code>&lt;td&gt;</code>: Table data cell</li>
+    </ul>
+
+    <h3>Example: Simple Table</h3>
+    <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;
+    &lt;th&gt;Age&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Alice&lt;/td&gt;
+    &lt;td&gt;24&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Bob&lt;/td&gt;
+    &lt;td&gt;30&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    <table border="1" style="border-collapse: collapse">
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Alice</td>
+        <td>24</td>
+      </tr>
+      <tr>
+        <td>Bob</td>
+        <td>30</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h3>Example: Table with Row and Column Span</h3>
+    <pre><code>&lt;table border="1"&gt;
+  &lt;tr&gt;
+    &lt;th rowspan="2"&gt;Name&lt;/th&gt;
+    &lt;th colspan="2"&gt;Scores&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Math&lt;/td&gt;
+    &lt;td&gt;Science&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Alice&lt;/td&gt;
+    &lt;td&gt;90&lt;/td&gt;
+    &lt;td&gt;95&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre>
+    <table border="1" style="border-collapse: collapse">
+      <tr>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Scores</th>
+      </tr>
+      <tr>
+        <td>Math</td>
+        <td>Science</td>
+      </tr>
+      <tr>
+        <td>Alice</td>
+        <td>90</td>
+        <td>95</td>
+      </tr>
+    </table>
+  </body>
+</html>

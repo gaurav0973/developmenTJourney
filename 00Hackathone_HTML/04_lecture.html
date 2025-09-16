@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <title>Lecture-4</title>
+  </head>
+  <body>
+    <h1>HTML Essentials: File Path, Boilerplate, Structure Tags</h1>
+
+    <h2>File Path in HTML</h2>
+    <ul>
+      <li>
+        <strong>Absolute Path:</strong> Full path from the root directory.<br /><code
+          >/images/photo.jpg</code
+        >
+      </li>
+      <li>
+        <strong>Relative Path:</strong> Path relative to the current file.<br /><code
+          >images/photo.jpg</code
+        >
+      </li>
+      <li>
+        <strong>Parent Directory:</strong> Use <code>../</code> to go up one
+        level.<br /><code>../assets/logo.png</code>
+      </li>
+    </ul>
+
+    <hr />
+
+    <h2>HTML Boilerplate Code</h2>
+    <p>The basic structure every HTML file should start with:</p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  <!-- Content goes here -->
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <hr />
+
+    <h2>
+      HTML Structure Tags: <code>&lt;div&gt;</code>, Class, ID, Header, Footer,
+      Main
+    </h2>
+    <ul>
+      <li>
+        <strong>&lt;div&gt;:</strong> Generic container for grouping content.
+      </li>
+      <li>
+        <strong>class:</strong> Attribute for styling multiple elements
+        together.
+      </li>
+      <li>
+        <strong>id:</strong> Attribute for uniquely identifying a single
+        element.
+      </li>
+      <li>
+        <strong>&lt;header&gt;:</strong> Defines the top section (logo, nav,
+        etc.).
+      </li>
+      <li>
+        <strong>&lt;footer&gt;:</strong> Defines the bottom section (copyright,
+        links).
+      </li>
+      <li><strong>&lt;main&gt;:</strong> Main content of the page.</li>
+    </ul>
+
+    <table border="1" style="border-collapse: collapse">
+      <tr>
+        <th>Tag/Attribute</th>
+        <th>Purpose</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td>&lt;div&gt;</td>
+        <td>Generic container</td>
+        <td>&lt;div&gt;Content&lt;/div&gt;</td>
+      </tr>
+      <tr>
+        <td>class</td>
+        <td>Group for styling</td>
+        <td>&lt;div class="box"&gt;...&lt;/div&gt;</td>
+      </tr>
+      <tr>
+        <td>id</td>
+        <td>Unique identifier</td>
+        <td>&lt;div id="header"&gt;...&lt;/div&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;header&gt;</td>
+        <td>Top section</td>
+        <td>&lt;header&gt;Site Title&lt;/header&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;footer&gt;</td>
+        <td>Bottom section</td>
+        <td>&lt;footer&gt;Copyright 2025&lt;/footer&gt;</td>
+      </tr>
+      <tr>
+        <td>&lt;main&gt;</td>
+        <td>Main content</td>
+        <td>&lt;main&gt;Article&lt;/main&gt;</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <h2>Example: Page Structure</h2>
+    <pre><code>&lt;header&gt;
+  &lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+&lt;main&gt;
+  &lt;div class="content"&gt;
+    &lt;p&gt;Welcome to my site!&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/main&gt;
+&lt;footer id="site-footer"&gt;
+  &copy; 2025 My Website
+&lt;/footer&gt;</code></pre>
+
+    <header>
+      <h1>My Website</h1>
+    </header>
+    <main>
+      <div class="content">
+        <p>Welcome to my site!</p>
+      </div>
+    </main>
+    <footer id="site-footer">&copy; 2025 My Website</footer>
+  </body>
+</html>
