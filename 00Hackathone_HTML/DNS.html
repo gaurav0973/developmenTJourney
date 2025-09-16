@@ -2,11 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="color-scheme" content="dark">
+    <meta name="color-scheme" content="dark" />
     <title>How DNS Works</title>
   </head>
   <body>
-    <h1>How DNS Works: The Journey From a Name to an IP Address</h1>
+    <!-- Navigation Links -->
+    <nav>
+      <a href="index.html">🏠 Home</a> |
+      <a href="02_lecture.html">Next ➡️</a>
+    </nav>
+
+    <h1>How DNS Works: The Journey From a Name to an IP Address 🗂️</h1>
     <p>
       When you type www.google.com in your browser, your computer doesn't
       actually understand "google.com." Computers talk in numbers called IP
@@ -17,7 +23,7 @@
     </p>
     <hr />
 
-    <h2>Step 1: Check Local Cache</h2>
+    <h2>1️⃣ Check Local Cache 🗃️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*C__XkSDPStlS_R8GlGU8mA.png"
       alt="local"
@@ -30,7 +36,7 @@
       If it's not stored, your computer asks the ISP's DNS resolver.
     </p>
 
-    <h2>Step 2: ISP's DNS Resolver</h2>
+    <h2>2️⃣ ISP's DNS Resolver 🧑‍💻</h2>
     <p>
       The resolver at your Internet Service Provider (ISP) acts like a
       helper.<br />
@@ -38,7 +44,7 @@
       If not, it must go on a search mission.
     </p>
 
-    <h2>Step 3: Root Name Servers</h2>
+    <h2>3️⃣ Root Name Servers 🌍</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*OiueHLDMCScuuEp4IfQkHw.png"
       alt="rootNameServer"
@@ -49,10 +55,10 @@
       The root server doesn't know the final answer, but it points the resolver
       in the right direction.<br /><br />
       For example, for www.google.com, the root says:<br />
-       "Go check the <strong>.com</strong> TLD server."
+      "Go check the <strong>.com</strong> TLD server."
     </p>
 
-    <h2>Step 4: TLD Servers (.com, .in, .ai)</h2>
+    <h2>4️⃣ TLD Servers (.com, .in, .ai) 🏷️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*uEB_J6PgCdUDCbSKwCarIQ.png"
       alt="TLD"
@@ -66,7 +72,7 @@
       authoritative name server for that domain.
     </p>
 
-    <h2>Step 5: Authoritative Name Server</h2>
+    <h2>5️⃣ Authoritative Name Server 🗄️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*jDeyTw_WyX3Y21ZfCHQJDQ.png"
       alt="nameServer"
@@ -78,7 +84,7 @@
       It returns the correct IP address, like 222.4.5.6.
     </p>
 
-    <h2>Step 6: Back to the Browser</h2>
+    <h2>6️⃣ Back to the Browser 🖥️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*648Ph3fx_2j4H7h11avs9A.png"
       alt="browser"
@@ -91,26 +97,22 @@
     </p>
 
     <hr />
-    <h2>The Flow in Short</h2>
+    <h2>Quick Recap: The DNS Journey 🚀</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Z_QMVbGg6Wy-QtcNTXw5eA.png"
       alt="final-step"
     />
-    <p>
-      Looking at the diagram again, here's the journey:<br />
-      Computer → ISP Resolver → Root Server → TLD Server → Authoritative Server
-      → ISP Resolver → Computer<br />
-      And all of this happens in just a few milliseconds!
-    </p>
-
-    <hr />
-    <h2>Recap</h2>
     <ul>
-      <li>DNS is the phonebook of the internet.</li>
-      <li>ISP resolver: Your first helper.</li>
-      <li>Root server: Points to the right TLD.</li>
-      <li>TLD server: Directs you to the authoritative server.</li>
-      <li>Authoritative server: Gives the final IP.</li>
+      <li>1️⃣ DNS is the phonebook of the internet.</li>
+      <li>2️⃣ ISP resolver: Your first helper.</li>
+      <li>3️⃣ Root server: Points to the right TLD.</li>
+      <li>4️⃣ TLD server: Directs you to the authoritative server.</li>
+      <li>5️⃣ Authoritative server: Gives the final IP.</li>
     </ul>
+    <hr />
+    <div style="display: flex; justify-content: space-between">
+      <a href="internet.html">⬅️ Previous</a>
+      <a href="index.html">Back to Index 🏠</a>
+    </div>
   </body>
 </html>
