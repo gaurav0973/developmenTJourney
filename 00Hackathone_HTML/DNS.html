@@ -6,7 +6,6 @@
     <title>How DNS Works</title>
   </head>
   <body>
-    <!-- Navigation Links -->
     <nav>
       <a href="index.html">🏠 Home</a> |
       <a href="02_lecture.html">Next ➡️</a>
@@ -21,12 +20,14 @@
       (Domain Name System) comes in. It works like a phonebook of the internet.
       Let's walk through the process with the diagram above.
     </p>
+    <hr>
+    <iframe src="https://www.youtube.com/embed/1pcikNlDB-4?si=2kJZ5Q5QXC-BQ3ht" frameborder="0" allowfullscreen width="50%" height="300px"></iframe>
     <hr />
 
     <h2>1️⃣ Check Local Cache 🗃️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*C__XkSDPStlS_R8GlGU8mA.png"
-      alt="local"
+      alt="local" width="600px"
     />
     <p>
       When you enter www.google.com, your computer first looks in its cached DNS
@@ -47,7 +48,7 @@
     <h2>3️⃣ Root Name Servers 🌍</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*OiueHLDMCScuuEp4IfQkHw.png"
-      alt="rootNameServer"
+      alt="rootNameServer" width="600px"
     />
     <p>
       The resolver first asks a Root Name Server.<br />
@@ -60,8 +61,8 @@
 
     <h2>4️⃣ TLD Servers (.com, .in, .ai) 🏷️</h2>
     <img
-      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*uEB_J6PgCdUDCbSKwCarIQ.png"
-      alt="TLD"
+      src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*uEB_J6PgCdUDCbSKwCarIQ.png"  
+      alt="TLD" width="600px"
     />
     <p>
       The resolver now queries the TLD (Top-Level Domain) server.<br />
@@ -75,7 +76,7 @@
     <h2>5️⃣ Authoritative Name Server 🗄️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*jDeyTw_WyX3Y21ZfCHQJDQ.png"
-      alt="nameServer"
+      alt="nameServer" width="600px"
     />
     <p>
       Finally, the resolver reaches the authoritative name server for
@@ -87,7 +88,7 @@
     <h2>6️⃣ Back to the Browser 🖥️</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*648Ph3fx_2j4H7h11avs9A.png"
-      alt="browser"
+      alt="browser" width="600px"
     />
     <p>
       Now the ISP's resolver passes the IP back to your computer.<br />
@@ -100,7 +101,7 @@
     <h2>Quick Recap: The DNS Journey 🚀</h2>
     <img
       src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*Z_QMVbGg6Wy-QtcNTXw5eA.png"
-      alt="final-step"
+      alt="final-step" width="600px"
     />
     <ul>
       <li>1️⃣ DNS is the phonebook of the internet.</li>
@@ -110,7 +111,7 @@
       <li>5️⃣ Authoritative server: Gives the final IP.</li>
     </ul>
     <hr />
-    <div style="display: flex; justify-content: space-between">
+    <div>
       <a href="internet.html">⬅️ Previous</a>
       <a href="index.html">Back to Index 🏠</a>
     </div>
