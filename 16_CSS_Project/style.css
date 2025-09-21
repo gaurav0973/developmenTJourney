@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #2A2A2A;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70%;
+    height: 90%;
+    border: 2px solid white;
+    display: flex;
+    gap: 20px;
+}
+
+
+#left-box{
+    width: 30%;
+    height: 100%;
+    border: 2px solid white;
+    background-color: #FF5733;
+    border-radius: 20px;
+
+}
+
+#right-box{
+    width: 70%;
+    height: 100%;
+    border: 2px solid white;
+    background-color: #33C1FF;
+    border-radius: 20px;
+
+}
