@@ -5,8 +5,8 @@ const app = express()
 app.use(express.json())
 
 app.get("/user", (req, res)=>{
-    // console.log("THis is res : ", res.body)
-    // console.log("THis is params in req : ", req.params)
+    console.log("THis is res : ", res.body)
+    console.log("THis is params in req : ", req.params)
     res.send({
         user : "Gaurav",
         age : 22
