@@ -1,43 +1,72 @@
 import express from "express"
 const app = express()
 
+
+// middleware
 app.use(express.json())
+app.use(express.urlencoded({extended:true}))
 
 
-const bookStore = [
-    { id: 1, name: "Harry Potter", author: "J.K. Rowling" },
-    { id: 2, name: "The Hobbit", author: "J.R.R. Tolkien" },
-    { id: 3, name: "Rich Dad Poor Dad", author: "Robert Kiyosaki" },
-    { id: 4, name: "Atomic Habits", author: "James Clear" }
-];
+// 💫💫
+// app.use("/", (req, res) =>{
+//     console.log("first")   -> execurte this 
+//     res.send("First")    -> tehn execute this 
+//     console.log("second")  -> then execute this
+// })
 
 
-// get all books 
-app.get("/books", (req, res)=>{
-    res.send(bookStore)
-})
 
-// get a particular book
-app.get("/book/:id", (req, res)=>{
-    console.log(typeof req.params)
-    console.log(req.params)
+// 💫💫
+// app.use("/", (req, res) =>{
+//     console.log("first")   
+//     res.send("First")    
+//     console.log("second")
+//     res.send("Second")    -> gives error here because TCP only on time send respoonce on one conncetion
+// })
 
-    const {id} = req.params
-    const idx = parseInt(id)
-    if(idx <=0)
-        res.send("Ask for valid book")
-    if(idx > bookStore.length)
-        res.send("Ask for valid book")
-    res.send(bookStore[idx-1])
-})
 
-app.post("/book", (req, res)=>{
-    // console.log(req.body)
-    const data = req.body
-    console.log(data)
-    bookStore.push(data)
-    res.send("New Book addes successfully")
-})
+// 🌋Executiion
+app.use("/user", (req, res, next) => {
+    console.log("first")
+    next()
+}, 
+(req, res, next)=>{
+    console.log("second")
+    next()
+},
+(req,res) => {
+    console.log("third")
+    res.send("Executed")
+}
+)
+
+/*
+first
+second
+third
+fourth
+fifth
+sixth
+- next ke niche wala stack me rah gaya but it will be executed while retuening 
+simple javascript execution of code
+
+*/
+app.use("/abcd", (req, res, next) => {
+    console.log("first")
+    next()
+    console.log("sixth")
+}, 
+(req, res, next)=>{
+    console.log("second")
+    next()
+    console.log("fifth")
+},
+(req,res) => {
+    console.log("third")
+    res.send("Executed")
+    console.log("fourth")
+}
+)
 
 
 
