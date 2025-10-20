@@ -35,6 +35,85 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ##### 4. Mastering Flexbox in CSS 🍻 [Read More](https://medium.com/@gauravkmaurya09/mastering-flexbox-in-css-dba7f48b4373)
 
 
+
+
+### JavaScript🎨
+
+#### 1. Introduction to Javascript 💫 [Read More](https://medium.com/@gauravkmaurya09/introduction-to-javascript-first-thought-principles-f8f44bff68e9)
+  - Javascript 
+  - V8 Engine
+  - Compiler vs Interpreter
+  - Node.js
+
+#### 2. JavaScript Basics 📚 [Read More](https://medium.com/@gauravkmaurya09/javascript-basics-part-1-9e42d34bac53)
+   - variables (var, let, const)
+   - data types (primitive & non-primitive)
+   - immutability
+   - copy by value vs reference
+
+#### 3. Memory Management in JS🔥 [Read More](https://medium.com/@gauravkmaurya09/memory-management-in-javascript-stack-and-heap-920791847c32)
+   - Stack vs Heap
+   - Memory allocation
+   - Garbage Collection
+
+#### 4. Operators in JavaScript and common myths ⚙️ [Read More](https://medium.com/@gauravkmaurya09/operators-in-javascript-common-mistakes-output-based-concepts-15aa5a442acd)
+   - NAN is a number
+   - null vs undefined
+   - 0.1 + 0.2 != 0.3
+   - == vs ===
+   - null -> 0 and undefined -> NaN in arithmetic operations
+   - logical and and or with non-boolean values
+
+#### 5. Numbers in JavaScript 🔢 [Read More](https://medium.com/@gauravkmaurya09/numbers-in-javascript-understanding-precision-and-limitations-7b6f3f5f5f2e)
+   - toFixed()
+   - toPrecision()
+   - toString()
+   - creating numbers using Number(), parseInt(), parseFloat()
+   - Math object
+   - Math.random() -> generating random numbers in a range
+
+#### 6. Strings and Date in JavaScript ✍️ [Read More](https://medium.com/@gauravkmaurya09/strings-dates-in-7b652afe4466)
+   ###### String methods
+   - length
+   - toUpperCase(), toLowerCase()
+   - indexOf(), lastIndexOf()
+   - slice(), substring(), substr()
+   - replace(), replaceAll()
+   - trim(), split(), concat()
+###### Date object
+   - creating date objects
+   - getFullYear(), getMonth(), getDate()
+   - getHours(), getMinutes(), getSeconds()
+
+
+#### 7. Arrays in JavaScript 📋 [Read More](https://medium.com/@gauravkmaurya09/understanding-arrays-in-javascript-a-first-principles-guide-3febb576c7c5)
+   - Non-primitive data type
+   - Mutable in nature
+   - Can store any data type
+   - Copied by reference
+   - why const in JS still allows array modification?
+   ######
+   - shift(), unshift()
+   - slice(), splice()
+   - arr.flat()
+   - arr.sort() -> important
+   - why array in JS is not like array in other languages?
+
+
+#### 8. Objects in JavaScript 🧩 [Read More](https://medium.com/@gauravkmaurya09/understanding-javascript-objects-the-heart-of-js-14b622eaab9b)
+   - Key-Value pairs
+   - Non-primitive data type
+   - Mutable in nature
+   - Copied by reference
+   ######
+   - Accessing properties using dot notation and bracket notation
+   - Adding, updating, deleting properties
+   - Object.keys(), Object.values(), Object.entries()
+   - Nested objects
+
+
+#### 9. 
+
 ## 🗓️ Daily Progress  
 
 ### ✅ Day 1 : What is Internet 🌐  
