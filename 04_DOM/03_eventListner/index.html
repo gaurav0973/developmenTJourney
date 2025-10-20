@@ -1,19 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="color-scheme" content="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
     <title>Event Listner</title>
-</head>
-<body>
+    <style>
+      /* layout & reset */
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
 
-    <!-- <h1 id="heading" onclick="handleClick()">
-        Kya haal hai ?
-    </h1> -->
-    <h1 id="heading">
-        Kya haal hai ?
-    </h1>
+      /* center everything on the page */
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #f3f4f6;
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          "Helvetica Neue",
+          Arial;
+      }
 
-</body>
-<script src="./script.js"></script>
+      /* size variables — tweak these to scale the whole thing */
+      :root {
+        --outer-w: 380px;
+        --outer-pad: 28px;
+        --middle-pad: 22px;
+        --inner-pad: 16px;
+        --outer-radius: 14px;
+        --middle-radius: 10px;
+        --inner-radius: 8px;
+      }
+
+      /* Grandparent (outermost box) */
+      #grandparent {
+        width: var(--outer-w);
+        padding: var(--outer-pad);
+        background: #ffffff;
+        border: 4px solid #334155; /* dark outer border */
+        border-radius: var(--outer-radius);
+        box-shadow: 0 10px 24px rgba(16, 24, 40, 0.06);
+      }
+
+      /* Parent (middle box) */
+      #parent {
+        padding: var(--middle-pad);
+        background: #f8fafc;
+        border: 3px solid #64748b; /* mid-tone border */
+        border-radius: var(--middle-radius);
+      }
+
+      /* Child (innermost box / paragraph) */
+      #child {
+        margin: 0;
+        padding: var(--inner-pad);
+        background: #e6eef8;
+        border: 2px solid #94a3b8; /* light border */
+        border-radius: var(--inner-radius);
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        font-weight: 600;
+        color: #0f172a;
+      }
+
+      /* small responsive tweak */
+      @media (max-width: 420px) {
+        :root {
+          --outer-w: 92vw;
+          --outer-pad: 20px;
+          --middle-pad: 16px;
+          --inner-pad: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    
+    <div id="grandparent">
+      <div id="parent">
+        <p id="child">Click Me!</p>
+      </div>
+    </div>
+
+
+  </body>
+  <script src="./script.js"></script>
 </html>
