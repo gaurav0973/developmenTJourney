@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="color-scheme" content="dark">
+    <title>Clicker</title>
+    <style>
+        body{
+            height: 100vh;
+            color: black;
+            position: relative;
+        }
+        .circle{
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            animation: grow 5s forwards;
+            border-radius: 50%;
+            position: absolute;
+        }
+        @keyframes grow {
+            0%{
+                transform: scale(1);
+                opacity: 1;
+                font-size: 10px;
+            }
+            100%{
+                transform: scale(3);
+                opacity: 0;
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+
+</body>
+<script src="./script.js"></script>
+</html>
