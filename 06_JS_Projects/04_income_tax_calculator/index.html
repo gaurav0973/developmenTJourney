@@ -2,11 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark">
     <title>Income Tax Calculator</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
     
+
+    <div id="parent">
+        <h1>Income Tax Calculator</h1>
+        <form>
+            <input type="number" name="amt" id="amt">
+            <br><br>
+            <button type="submit">Calculate Income Tax</button>
+        </form>
+        <h2>Total Tax : </h2>
+    </div>
 </body>
 <script src="./script.js"></script>
 </html>
