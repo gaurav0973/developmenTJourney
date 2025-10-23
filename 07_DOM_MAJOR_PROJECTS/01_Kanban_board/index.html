@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <title>Task Board</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="board">
+      <!-- todo -->
+      <div class="column" id="todo">
+        <h2>ToDo</h2>
+        <div class="tasks" id="todo-tasks">
+          <!-- todos will be added here -->
+        </div>
+        <input
+          type="text"
+          class="task-input"
+          id="todo-input"
+          placeholder="Add todo..."
+        />
+        <button class="add-task"
+        onclick="addTask('todo')"
+        >Add Task</button>
+      </div>
+
+
+
+
+
+
+
+
+      <!-- doing -->
+      <div class="column" id="doing">
+        <h2>In-Progress</h2>
+        <div class="tasks" id="doing-tasks">
+          <!-- todos will be added here -->
+        </div>
+        <input
+          type="text"
+          class="task-input"
+          id="doing-input"
+          placeholder="Add todo..."
+        />
+        <button class="add-task"
+        onclick="addTask('doing')"
+        >Add Task</button>
+      </div>
+
+      <!-- done -->
+      <div class="column" id="done">
+        <h2>Done</h2>
+        <div class="tasks" id="done-tasks">
+          <!-- todos will be added here -->
+        </div>
+        <input
+          type="text"
+          class="task-input"
+          id="done-input"
+          placeholder="Add todo..."
+        />
+        <button class="add-task"
+        onclick="addTask('done')"
+        >Add Task</button>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
