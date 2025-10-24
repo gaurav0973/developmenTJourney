@@ -19,11 +19,11 @@ This journey is about **discipline + revision + consistency** - just like defenc
 ##### 3. Server-Client Architecture Explained 💻 [Read More](https://medium.com/@gauravkmaurya09/server-client-architecture-explained-from-browser-to-web-server-393093a7998a)
 
 
-### HTML🔤
+# HTML🔤
 ##### 1. HTML Forms 📝 [Read More](https://medium.com/@gauravkmaurya09/html-forms-made-simple-099444b167be)
 
 
-### CSS🎨
+# CSS🎨
 
 ##### 1. Understanding the CSS Box Model 💭[Read More](https://medium.com/@gauravkmaurya09/understanding-the-css-box-model-4894ba46b3ee)
 
@@ -37,7 +37,7 @@ This journey is about **discipline + revision + consistency** - just like defenc
 
 
 
-### JavaScript🎨
+# JavaScript🎨
 
 #### 1. Introduction to Javascript 💫 [Read More](https://medium.com/@gauravkmaurya09/introduction-to-javascript-first-thought-principles-f8f44bff68e9)
   - Javascript 
