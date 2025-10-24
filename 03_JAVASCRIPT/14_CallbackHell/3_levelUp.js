@@ -39,12 +39,12 @@ placeOrder(function(){
 })
 
 
-placeOrder(() => {
-    preparingOrder(() => {
-        pickupOrder(() => {
-            orderedDelivered()
-        })
-    })
-})
+// placeOrder(() => {
+//     preparingOrder(() => {
+//         pickupOrder(() => {
+//             orderedDelivered()
+//         })
+//     })
+// })
 
 

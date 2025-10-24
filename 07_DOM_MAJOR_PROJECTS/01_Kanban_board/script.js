@@ -2,7 +2,7 @@ let draggingElement = null
 
 function addTask(columnId){
     const input = document.getElementById(`${columnId}-input`)
-    // console.log(input)
+    console.log(input)
     const inputValue = input.value.trim()
     if(inputValue.length === 0)
         return
