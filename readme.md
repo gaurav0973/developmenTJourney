@@ -112,9 +112,90 @@ This journey is about **discipline + revision + consistency** - just like defenc
    - Nested objects
 
 
-#### 9. 
+#### 9. Functions in JavaScript ⚙️ [Read More](https://medium.com/@gauravkmaurya09/javascript-functions-from-confusion-to-clarity-4ea5e237440d)
+   - parameters vs arguments
+   - function declaration vs function expression
+   - arrow functions
+   - IIFE (Immediately Invoked Function Expression)
+   - callback functions
+   - Rest operators
+   - Difference between rest and spread operators
 
-## 🗓️ Daily Progress  
+#### 10. Hoisting and Execution Context in JavaScript 🚀 [Read More](https://medium.com/@gauravkmaurya09/hoisting-execution-context-the-unsung-heroes-of-javascript-bb068712bc49)
+   - Execution Context
+   - Memory Creation Phase
+   - Code Execution Phase
+   - behavior of var and function 
+   - behavior of let and const
+   - Hoisting 
+   - Temporal Dead Zone (TDZ)
+
+#### 11. Scope,Closure and Higher Order Functions in JavaScript 🧠 [Read More](https://medium.com/@gauravkmaurya09/javascript-core-concepts-scope-closure-higher-order-functions-b486f4d7f119)
+   - Scope: Global, Function, Block
+   - Lexical Scope
+   - Closure
+   - Higher Order Functions
+
+#### 12. Creating my own higher Order function🔄 [Read More](https://medium.com/@gauravkmaurya09/creating-our-own-higher-order-functions-filter-foreach-map-and-reduce-e7ed8734ab97)
+   - Array.prototype
+   - filter()
+   - forEach()
+   - map()
+   - reduce()
+   - find()
+
+#### 13. Document Object Model (DOM) in JavaScript 🌳 [Read More](https://medium.com/@gauravkmaurya09/document-object-model-dom-from-first-thought-principle-5866926fe091)
+   - Need of DOM
+   - DOM = javascript Objects
+   - Who creates DOM?
+   - How does dom looks like (tree structure)
+   - selecting elements
+   - HTMLCollection vs NodeList
+   - innerHTML vs textContent vs innerText
+   - Manipulating styles
+
+#### 14. CRUD Operations on DOM 🛠️ [Read More](https://medium.com/@gauravkmaurya09/crud-operations-in-the-dom-with-best-practices-c54a682c3fbe)
+   - Creating elements
+   - Appending elements
+   - Modifying elements
+   - Deleting elements
+
+#### 15. Event Bubbling and Event Capturing in JavaScript 🌊 [Read More](https://medium.com/@gauravkmaurya09/mastering-javascript-events-from-clicks-to-the-bubbling-phase-8c743828c4b5)
+   - Event 
+   - Event Listener => addEventListener()
+   - Event Action => click, mouseover, mouseout, dblclick, keydown, keyup
+   - Event Propagation
+   - Event Phases
+      - Capturing Phase
+      - Target Phase
+      - Bubbling Phase
+   - stopPropagation()
+   - event delegation
+
+#### 16. Event Loop in JavaScript ⏳ [Read More](https://medium.com/@gauravkmaurya09/why-javascript-feels-asynchronous-even-when-its-not-19187c258725)
+   - JavaScript is single-threaded
+   - Synchronous vs Asynchronous
+   - Time, tide and JavaScript waits for none
+   - Call Stack
+   - Web APIs
+   - Callback Queue
+   - Microtask Queue
+   - Event Loop
+   - Promises and async/await
+   - setTimeout and setInterval
+
+
+#### 17. Callback and Callback Hell in JavaScript 🔄 [Read More](https://medium.com/@gauravkmaurya09/understanding-callbacks-in-javascrip-a01fe6386352)
+   - What is a Callback?
+   - Why it is important?
+   - Callback Hell
+   - Pyramid of Doom
+   - inversion of control
+   - Solutions to Callback Hell
+
+
+
+## 📚 Course Content
 
 ### ✅ Day 1 : What is Internet 🌐  
  
