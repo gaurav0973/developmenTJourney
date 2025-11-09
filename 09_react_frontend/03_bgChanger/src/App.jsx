@@ -7,7 +7,7 @@ function App() {
   useEffect(()=>{
       console.log("fiest time render and then only re-render when the dependency cnages")
       document.body.style.backgroundColor = color
-  }, [])
+  },[color])
   
 
   return (
