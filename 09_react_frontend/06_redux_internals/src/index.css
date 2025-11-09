@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #1f2937; /* gray-800 */
+  background-color: #f9fafb; /* gray-50 */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Add some custom styles that complement the Tailwind classes */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f9fafb; /* gray-50 */
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, input, textarea {
+  transition-property: color, background-color, border-color, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Focus styles for accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #3b82f6; /* blue-500 */
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar to match the theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9; /* blue-50 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; /* blue-300 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; /* blue-400 */
+}
