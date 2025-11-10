@@ -193,6 +193,28 @@ This journey is about **discipline + revision + consistency** - just like defenc
    - inversion of control
    - Solutions to Callback Hell
 
+#### 18. Promises in JavaScript 🔐 [Read More](https://medium.com/@gauravkmaurya09/understanding-promises-in-javascript-4e7e97028788)
+   - What is a Promise?
+   - States of a Promise
+      - Pending
+      - Fulfilled
+      - Rejected
+   - Using the Promise
+   - Creating my Own Promise
+   - How Promises Solves Callback Problems
+
+
+#### 19. Async/Await in JavaScript 🚀 [Read More](https://medium.com/@gauravkmaurya09/understanding-async-and-await-in-javascript-6c3dcf3b008a)
+   - What is Async/Await?
+   - Async Functions
+   - Await Keyword
+   - Error Handling in Async/Await
+   - Running Multiple Tasks in Parallel — Promise.all()
+
+
+
+
+---------------------------------------------------------------------------------------------
 
 
 ## 📚 Course Content
