@@ -212,6 +212,27 @@ This journey is about **discipline + revision + consistency** - just like defenc
    - Running Multiple Tasks in Parallel — Promise.all()
 
 
+#### 20. Prototype and Classes in JavaScript 🏛️ [Read More](https://medium.com/@gauravkmaurya09/understanding-prototypes-and-classes-in-javascript-00d67fd93cf5)
+   - Prototype
+   - Prototype Chain => __proto__
+   - Why everything is object in JavaScript?
+   - difference between __proto__ and .prototype
+   - Class
+   - Behind the scenes of Class in JavaScript
+   - Inheritance
+      - extends
+      - super()
+   
+
+#### 21. The 'this' Keyword in JavaScript 🔑 [Read More](https://medium.com/@gauravkmaurya09/understanding-this-call-bind-and-apply-in-javascript-625279d1c222)
+   - What is 'this'?
+   - 'this' in Global Context
+   - 'this' in Function Context
+   - 'this' in Method Context
+   - 'this' in Arrow Functions
+   - 'this' in Event Handlers
+   - Explicit Binding: call(), apply(), bind()
+   - 'this' context in DOM
 
 
 ---------------------------------------------------------------------------------------------
